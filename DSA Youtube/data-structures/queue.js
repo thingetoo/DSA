@@ -26,8 +26,6 @@ class Queue {
         return ++this.size;
     }
 
-    iter
-
     dequeue() {
         if (this.size === 0) return null;
 
